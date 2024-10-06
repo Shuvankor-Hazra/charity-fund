@@ -7,6 +7,10 @@
     @apply rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 dark:bg-primary/80
   }
 
+  .btn-secondary {
+    @apply rounded-md border-2 text-black bg-white px-4 py-2 text-sm transition-colors duration-300
+  }
+
   .btn-outline {
     @apply rounded-md border-2 border-white px-4 py-2 text-sm text-white transition-colors duration-300
   }

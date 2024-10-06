@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import OurVision from "./components/OurVision/OurVision";
 import OverviewCounter from "./components/OverviewCounter/OverviewCounter";
+import VideoBanner from "./components/VideoBanner/VideoBanner";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <OurVision />
         <Banner />
         <Banner2 />
+        <VideoBanner />
       </main>
     </>
   );
