@@ -37,7 +37,7 @@ const Hero = () => {
 
     return (
         <div style={HeroImg}>
-            <div className="min-h-[650px] md:max-h-[750px] bg-gradient-to-r from-black/80 to-primary/60 pt-3 pb-10 md:pt-48">
+            <div className="min-h-[650px] md:max-h-[750px] bg-gradient-to-r from-black/80 to-primary/60 pt-32 pb-10 md:pt-48">
                 <div className="container">
                     <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12 text-white">
                         {/* Hero Text Section */}
