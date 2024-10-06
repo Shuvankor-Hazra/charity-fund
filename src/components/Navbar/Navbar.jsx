@@ -29,13 +29,13 @@ const Navbar = () => {
                 <div className="container">
                     <div className="flex items-center justify-between h-[70px] py-2">
                         {/* Logo Section */}
-                        <div className="text-2xl md:text-3xl uppercase">
-                            <a href="#">Charity<span className="inline-block font-bold text-primary">Fund</span></a>
+                        <div className="text-2xl md:text-3xl uppercase font-medium">
+                            <a href="#">Charity<span className="inline-block font-bold text-primary ml-3">Fund</span></a>
                         </div>
                         {/* Desktop Menu Section */}
                         <div className="hidden md:block">
                             <ul className="flex items-center gap-10">
-                                <li className="group relative cursor-pointer">
+                                <li className="group relative cursor-pointer hover:text-primary">
                                     <a href="#" className="flex items-center gap-[2px] h-[72px]">Home
                                         <span>
                                             <FaCaretDown className="group-hover:rotate-180 transition-all duration-200 text-xl" />
@@ -50,7 +50,9 @@ const Navbar = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li>About Us</li>
+                                <li className="hover:text-primary">
+                                    <a href="#">About Us    </a>
+                                </li>
                                 <li>
                                     <div className="flex items-center gap-4">
                                         {/* Icon Section */}
