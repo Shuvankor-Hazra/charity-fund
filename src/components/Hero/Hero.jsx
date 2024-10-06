@@ -69,7 +69,7 @@ const Hero = () => {
                                 variants={FadeUp(0.4)}
                                 initial="initial"
                                 animate="animate"
-                            >Quickly conceptualize backend web services and stand-alone convergence. Continually myocardinate user-centric innovation without enabled users. Holisticly scale magnetic networks after.</motion.p>
+                            >Quickly conceptualize backend web services and stand-alone convergence. Continually myocardia user-centric innovation without enabled users. Holistically scale magnetic networks after.</motion.p>
                             <div className="space-x-4">
                                 <motion.button
                                     variants={FadeUp(0.6)}
