@@ -5,7 +5,7 @@ import { FaUserCircle } from "react-icons/fa";
 const ResponsiveMenu = ({ showMenu }) => {
     return (
         <>
-            <div className={`fixed top-0 z-50 ${showMenu ? "left-0" : "-left-[100%]"} h-screen w-[75%] bg-purple-100/80 dark:bg-slate-950/80 dark:text-white z-50 transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between md:hidden`}>
+            <div className={`fixed top-0 z-50 ${showMenu ? "left-0" : "-left-[100%]"} h-screen w-[75%] bg-purple-100 dark:bg-slate-950 dark:text-white z-50 transition-all duration-500 pt-24 pb-6 px-8 flex flex-col justify-between md:hidden`}>
                 {/* Navbar Section */}
                 <div>
                     {/* User Section */}

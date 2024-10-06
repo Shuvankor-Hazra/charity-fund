@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="max-w-[1200px] mx-auto p-4">
                 {/* Footer Content Section */}
                 <div className="grid py-5 md:grid-cols-3">
-                    <div className="px-4 py-8">
+                    <div className="px-4 py-8 space-y-3">
                         <h1 className="mb-3 text-justify text-xl sm:text-left sm:text-3xl font-semibold">
                             <a href="/#Home" className="uppercase">
                                 Charity
@@ -70,7 +70,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="px-4 py-8">
-                            <h2 className="pb-3 text-xl font-bold sm:table-cell sm:text-xl">Links</h2>
+                            <h2 className="pb-3 text-xl font-bold sm:table-cell sm:text-xl">Other Links</h2>
                             <ul className="flex flex-col gap-3">
                                 <FooterLinks links={Links} />
                             </ul>

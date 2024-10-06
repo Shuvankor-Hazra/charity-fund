@@ -88,10 +88,10 @@ const Hero = () => {
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ type: "spring", stiffness: 100 }}
-                            className="w-[90%] md:w-[400px] mx-auto p-6 bg-white dark:bg-black text-slate-800 dark:text-white/80 rounded-2xl shadow-md">
+                            className="w-[90%] md:w-[400px] mx-auto p-6 bg-white dark:bg-black text-slate-950 dark:text-white/80 rounded-2xl shadow-md">
                             <div>
                                 <h2 className="text-lg text-center font-semibold">Quick Donation Form</h2>
-                                <div className="flex items-center justify-center gap-8 py-4 font-bold">
+                                <div className="flex items-center justify-center gap-8 py-4">
                                     <button className="btn-square">$01</button>
                                     <button className="btn-square">$05</button>
                                     <button className="btn-square">$10</button>
