@@ -8,7 +8,7 @@ const BlogCard = ({ blog }) => {
                 <img
                     src={blog.img}
                     alt=""
-                    className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+                    className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-6 hover:scale-125"
                 />
             </div>
             <div className="flex items-center justify-between pt-2 text-slate-600 text-sm">

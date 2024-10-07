@@ -50,7 +50,7 @@ const Hero = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(data);
-        //! I will handle the data after working on backend code
+        // I will handle the data after working on backend code
     }
 
     return (
@@ -88,14 +88,22 @@ const Hero = () => {
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ type: "spring", stiffness: 100 }}
-                            className="w-[90%] md:w-[400px] mx-auto p-6 bg-white dark:bg-black text-slate-950 dark:text-white/80 rounded-2xl shadow-md">
+                            className="w-[90%] md:w-[400px] mx-auto p-6 bg-white dark:bg-black text-slate-950 dark:text-white/80 rounded-3xl shadow-md border    border-primary">
                             <div>
                                 <h2 className="text-lg text-center font-semibold">Quick Donation Form</h2>
                                 <div className="flex items-center justify-center gap-8 py-4">
-                                    <button className="btn-square">$01</button>
-                                    <button className="btn-square">$05</button>
-                                    <button className="btn-square">$10</button>
-                                    <button className="btn-square">$99</button>
+                                    <button
+                                        onClick={() => setData({ ...data, amount: 1 })}
+                                        className="btn-square">$01</button>
+                                    <button
+                                        onClick={() => setData({ ...data, amount: 5 })}
+                                        className="btn-square">$05</button>
+                                    <button
+                                        onClick={() => setData({ ...data, amount: 10 })}
+                                        className="btn-square">$10</button>
+                                    <button
+                                        onClick={() => setData({ ...data, amount: 99 })}
+                                        className="btn-square">$99</button>
                                 </div>
                                 {/* Input Section */}
                                 <div className="space-y-6">
@@ -105,6 +113,7 @@ const Hero = () => {
                                         id="amount"
                                         placeholder="Amount"
                                         defaultValue={1}
+                                        value={data.amount}
                                         min={1}
                                         max={100}
                                         onChange={handleClick}
